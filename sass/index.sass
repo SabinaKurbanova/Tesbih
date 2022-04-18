@@ -1,107 +1,41 @@
-body
-  background-color: #f1f1f1
-  font-family: sans-serif
-  margin: 0
-  padding: 0
-  .container
-    width: 100%
-    min-height: 100vh
-    padding-left: 8%
-    padding-right: 8%
-    box-sizing: border-box
-    overflow: hidden
-    .header
-      width: 100%
-      display: flex
-      align-items: center
-      .header__logo
-        width: 50px
-        cursor: pointer
-        margin: 30px 0
-      .header__menu-icon
-        width: 25px
-        cursor: pointer
-      .header__navbar
-        flex: 1
-        text-align: right
-        .navbar__item
-          list-style: none
-          display: inline-block
-          margin-right: 30px
-          .navbar__link
-            text-decoration: none
-            color: #000
-            font-size: 14px
-            &:hover
-              color: #f437
-    .row
-      display: flex
-      justify-content: space-between
-      align-items: center
-      margin: 40px 0
-      .product
-        flex-basis: 40%
-        position: relative
-        margin-left: 50px
-        &::after
-          content: ''
-          width: 10px
-          height: 70%
-          background: linear-gradient(#f1f120, #52fd0f)
-          position: absolute
-          left: -47px
-          top: 8px
-          border-radius: 10px
-        .product__title
-          font-size: 54px
-          margin: 0
-        .product__name
-          font-size: 30px
-          color: #131413
-          font-weight: 100
-          margin-button: 20px
-        .product__text
-          font-size: 16px
-          color: #201f1f
-          font-weight: 100
-        .product__btn
-          width: 200px
-          margin-top: 20px
-          border: 0
-          padding: 12px 10px
-          outline: none
-          color: #f1f1f5
-          background: linear-gradient(to right, #f1f120, #52fd0f)
-          cursor: pointer
-          border-radius: 17px
-          .product__btn-img
-            display: none
-            width: 20px
-            height: 20px
-      .col-2
-        position: relative
-        flex-basis: 70%
-        display: flex
-        align-items: center
-        .product__photo
-          border: 1px solid black
-          width: 60%
-          border-radius: 500px
-        .product__bg-box
-          position: absolute
-          right: 0
-          top: 0
-          background: linear-gradient(to right, #f1f120, #52fd0f)
-          border-radius: 10px 0
-          height: 100%
-          width: 70%
-          z-index: -1
-          transform: translateX(70px)
-          display: flex
-          justify-content: center
-          align-items: center
-          .product__add-link
-            display: block
-            text-decoration: none
-            color: #fff
-            margin: 10px
+.box
+  &__container
+    display: flex
+    justify-content: space-evenly
+    flex-direction: column
+    align-items: center
+    width: 300px
+    height: 400px
+    background-color: #45dfff
+    position: absolute
+    top: 30%
+    left: 40%
+    border-radius: 50px
+  &__ekran
+    width: 80%
+    height: 15%
+    caret-color: white
+    border-radius: 30px
+    border: none
+    text-align: center
+    font-size: 50px
+  &__btn
+    padding: 32px 32px
+    background-color: #5890f8
+    border-radius: 50%
+    border: 2px solid #76e2f3
+    font-size: 28px
+    font-weight: 700
+    color: white
+    &-clear
+      padding: 12px 21px
+      background-color: #f32e0b
+      color: white
+      border-radius: 30px
+      border: none
+      font-size: 18px
+      font-weight: 700
+    
+     
+
+      
